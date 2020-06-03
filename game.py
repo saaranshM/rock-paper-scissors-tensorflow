@@ -74,7 +74,7 @@ while True:
 
     if bot_move != "none":
         icon = cv2.imread(
-            "{}.png".format(bot_move))
+            "images/{}.png".format(bot_move))
         icon = cv2.resize(icon, (500, 500))
         frame[100:600, 800:1300] = icon
 
